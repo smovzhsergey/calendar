@@ -1,3 +1,3 @@
 export default Object.freeze({
-    START: 'START'
+    CHANGE_CURRENT_DATE: 'CHANGE_CURRENT_DATE',
 })

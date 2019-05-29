@@ -1,7 +1,8 @@
 import types from './actionTypes';
 
 export default Object.freeze({
-    start: () => ({
-        type: types.START
-    })
+    changeCurrentDate: (date) => ({
+        type: types.CHANGE_CURRENT_DATE,
+        payload: date
+    }),
 })
